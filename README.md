@@ -1,6 +1,6 @@
 # Searcher
 
-Searcher is library to find an element of an enumerable 
+Searcher is library to find an element of an enumerable performatically
 
 ## Installation
 
