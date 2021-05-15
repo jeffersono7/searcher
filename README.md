@@ -1,6 +1,6 @@
 # Searcher
 
-**TODO: Add description**
+Searcher is library to find an element of an enumerable 
 
 ## Installation
 
@@ -13,6 +13,12 @@ def deps do
     {:searcher, "~> 0.1.0"}
   ]
 end
+```
+
+## Usage
+
+```elixir
+Searcher.find(enumerable, fn item -> item == "element" end)
 ```
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
